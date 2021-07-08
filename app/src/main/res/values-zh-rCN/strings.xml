@@ -67,7 +67,7 @@
     <string name="pref_dict_uk">乌克兰语</string>
     <string name="pref_dict_pl">波兰语</string>
     <string name="pref_dict_hu">匈牙利语</string>
-    <string name="pref_dict_pt_BR">葡萄牙语(巴西)</string>
+    <string name="pref_dict_pt_BR_no_diacritics">葡萄牙语(巴西)</string>
     <string name="theme_dark">深色</string>
     <string name="theme_light">浅色</string>
     <string name="pref_theme_dialog">选择主题</string>
@@ -75,7 +75,7 @@
     <string name="time">时间</string>
     <string name="sort">排序</string>
     <string name="theme_high_contrast">高对比度</string>
-    <string name="game_mode_letter_points">Letter Points</string>
+    <string name="game_mode_letter_points">字母得分</string>
     <plurals name="num_minutes">
         <item quantity="other">%d 分钟</item>
     </plurals>
@@ -145,4 +145,19 @@
 \n你可以捐款表达自己的支持并为它的进一步发展作出贡献，详见<a href="https://liberapay.com/Lexica">Liberapay</a>或<a href="https://github.com/sponsors/pserwylo">GitHub Sponsors</a>。</string>
     <string name="whats_new_support">支持 Lexica</string>
     <string name="whats_new_multiplayer">多人游戏！</string>
+    <plurals name="num_available_words_in_game">
+        <item quantity="other">%1$d 单词</item>
+    </plurals>
+    <plurals name="num_available_words_in_game__tap_to_refresh">
+        <item quantity="other">%1$d 单词 (轻按刷新）</item>
+    </plurals>
+    <string name="invalid_multiplayer_link">收到不正确的多人游戏链接，无法加入游戏。 确保你们俩都在使用最新版本的Lexica。</string>
+    <string name="dialog_refresh_confirmation_message">已刷新游戏板</string>
+    <string name="dialog_refresh_button">刷新</string>
+    <string name="dialog_refresh_content">为确保你与对手玩的游戏板相同，请确保刷新后重新发送所有邀请。</string>
+    <string name="dialog_refresh_title">刷新游戏板</string>
+    <string name="pref_dict_pt_BR_description" tools:keep="@string/pref_dict_br_BR_description">包含变音符号：çáéíóúâêôãõà 及字母：kwy</string>
+    <string name="pref_dict_pt_BR" tools:keep="@string/pref_dict_pt_BR">葡萄牙语 (巴西) (扩展)</string>
+    <string name="dialog_end_game_confirm_message">你确定想结束这场游戏吗？</string>
+    <string name="dialog_end_game_confirm_title">结束游戏</string>
 </resources>

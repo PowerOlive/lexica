@@ -67,7 +67,7 @@
     <string name="pref_dict_uk">Ukrainien</string>
     <string name="pref_definitionProvider_dictionaryProvider_online">En ligne</string>
     <string name="pref_dict_pl">Polonais</string>
-    <string name="pref_dict_pt_BR">Portugais (Brésil)</string>
+    <string name="pref_dict_pt_BR_no_diacritics">Portugais (Brésil)</string>
     <string name="sort">Trier</string>
     <string name="theme_high_contrast">Contraste élevé</string>
     <string name="theme_dark">Sombre</string>
@@ -98,7 +98,7 @@
     <string name="game_mode_letter_points_description">Marquez plus de points en utilisant des lettres moins courantes</string>
     <string name="game_mode_letter_points">Points de lettre</string>
     <string name="game_mode_beginner_description">Utilisez des astuces pour trouver des mots</string>
-    <string name="game_mode_beginner">Débutant·e</string>
+    <string name="game_mode_beginner">Débutant</string>
     <string name="game_mode_marathon_description">Essayez de trouver tous les mots, sans aucune limite de temps</string>
     <string name="game_mode_marathon">Marathon</string>
     <string name="game_mode_sprint_description">Jeu court pour trouver le plus de mots possible</string>
@@ -148,4 +148,21 @@
 \n
 \nComme toujours, vos remarques sont les bienvenus pour améliorer cette fonctionnalité. Bien qu’il ne s’agisse pas d\'une fonction multijoueur en temps réel/réseau, nous espérons que vous l’apprécierez.</string>
     <string name="whats_new_multiplayer">Multijoueur !</string>
+    <plurals name="num_available_words_in_game">
+        <item quantity="one">%1$d mot</item>
+        <item quantity="other">%1$d mots</item>
+    </plurals>
+    <plurals name="num_available_words_in_game__tap_to_refresh">
+        <item quantity="one">%1$d mot (touchez pour actualiser)</item>
+        <item quantity="other">%1$d mots (touchez pour actualiser)</item>
+    </plurals>
+    <string name="invalid_multiplayer_link">Lien multijoueur reçu incorrect, impossible de rejoindre la partie. Assurez-vous que vous utilisez tous les deux la dernière version de Lexica.</string>
+    <string name="dialog_refresh_confirmation_message">Plateau actualisé</string>
+    <string name="dialog_refresh_button">Actualiser</string>
+    <string name="dialog_refresh_content">Pour vous assurer que vous jouez sur le même plateau que vos adversaires, veillez à renvoyer les invitations après actualisation.</string>
+    <string name="dialog_refresh_title">Actualiser le plateau</string>
+    <string name="pref_dict_pt_BR_description" tools:keep="@string/pref_dict_br_BR_description">Inclut les diacritiques : çáéíóúâêôãõà et les lettres : kwy</string>
+    <string name="pref_dict_pt_BR" tools:keep="@string/pref_dict_pt_BR">Portugais (Brésil) (étendu)</string>
+    <string name="dialog_end_game_confirm_message">Êtes-vous sûr(e) de vouloir terminer cette partie \?</string>
+    <string name="dialog_end_game_confirm_title">Terminer la partie</string>
 </resources>

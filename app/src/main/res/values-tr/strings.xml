@@ -67,7 +67,7 @@
     <string name="pref_dict_uk">Ukraynaca</string>
     <string name="pref_definitionProvider_dictionaryProvider_online">Çevrim içi</string>
     <string name="pref_dict_pl">Lehçe</string>
-    <string name="pref_dict_pt_BR">Portekizce (Brezilya)</string>
+    <string name="pref_dict_pt_BR_no_diacritics">Portekizce (Brezilya)</string>
     <string name="time">Süre</string>
     <string name="theme_dark">Karanlık</string>
     <string name="theme_light">Aydınlık</string>
@@ -124,9 +124,9 @@
     <string name="pref_dict_ru_extended_description" tools:keep="@string/pref_dict_ru_extended_description">Dil bilgisi durumlarını ve kısaltmaları içerir</string>
     <string name="pref_dict_ru_extended" tools:keep="@string/pref_dict_ru_extended">Rusça (Genişletilmiş)</string>
     <string name="pref_dict_fr_FR_no_diacritics" tools:keep="@string/pref_dict_fr_FR_no_diacritics">Fransızca</string>
-    <string name="pref_dict_fr_FR_description" tools:keep="@string/pref_dict_fr_FR_description">Aksanları içerir: àâçéèêëîïôöûü</string>
+    <string name="pref_dict_fr_FR_description" tools:keep="@string/pref_dict_fr_FR_description">àâçéèêëîïôöûü aksan işaretlerini içerir</string>
     <string name="pref_dict_de_DE_no_diacritics" tools:keep="@string/pref_dict_de_DE_no_diacritics">Almanca</string>
-    <string name="pref_dict_de_DE_description" tools:keep="@string/pref_dict_de_DE_description">Aksanları içerir: äöü</string>
+    <string name="pref_dict_de_DE_description" tools:keep="@string/pref_dict_de_DE_description">äöü aksan işaretlerini içerir</string>
     <string name="new_game_mode">Yeni oyun modu</string>
     <string name="game_mode">Oyun modu</string>
     <string name="multiplayer">Çok oyunculu</string>
@@ -148,4 +148,21 @@
 \n
 \nHer zaman olduğu gibi, bu özelliğin nasıl iyileştirilebileceği konusunda geri bildirim almaktan memnuniyet duyarız. Bunun gerçek zamanlı/ağ üzerinden çok oyunculu bir özellik olması amaçlanmasa da, beğeneceğinizi umuyoruz.</string>
     <string name="whats_new_multiplayer">Çok oyunculu!</string>
+    <plurals name="num_available_words_in_game">
+        <item quantity="one">%1$d sözcük</item>
+        <item quantity="other">%1$d sözcük</item>
+    </plurals>
+    <plurals name="num_available_words_in_game__tap_to_refresh">
+        <item quantity="one">%1$d sözcük (yenilemek için dokunun)</item>
+        <item quantity="other">%1$d sözcük (yenilemek için dokunun)</item>
+    </plurals>
+    <string name="invalid_multiplayer_link">Yanlış çok oyunculu bağlantı alındı, oyuna katılınamıyor. Her ikinizin de Lexica\'nın en son sürümünü kullandığından emin olun.</string>
+    <string name="dialog_refresh_confirmation_message">Tahta yenilendi</string>
+    <string name="dialog_refresh_button">Yenile</string>
+    <string name="dialog_refresh_content">Rakiplerinizle aynı tahtayı oynadığınızdan emin olmak için, yeniledikten sonra tüm davetleri tekrar gönderdiğinizden emin olun.</string>
+    <string name="dialog_refresh_title">Tahtayı yenile</string>
+    <string name="pref_dict_pt_BR_description" tools:keep="@string/pref_dict_br_BR_description">çáéíóúâêôãõà aksan işaretlerini ve kwy harflerini içerir</string>
+    <string name="pref_dict_pt_BR" tools:keep="@string/pref_dict_pt_BR">Portekizce (Brezilya) (Genişletilmiş)</string>
+    <string name="dialog_end_game_confirm_message">Bu oyunu bitirmek istediğinizden emin misiniz\?</string>
+    <string name="dialog_end_game_confirm_title">Oyunu Bitir</string>
 </resources>

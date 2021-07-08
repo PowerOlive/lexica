@@ -95,7 +95,7 @@
     <string name="word_length">Vortolongo</string>
     <string name="pref_dict">Vortaro</string>
     <string name="pref_dict_fa" tools:keep="@string/pref_dict_fa">La persa</string>
-    <string name="pref_dict_pt_BR" tools:keep="@string/pref_dict_pt_BR">La portugala (brazila)</string>
+    <string name="pref_dict_pt_BR_no_diacritics" tools:keep="@string/pref_dict_pt_BR">La portugala (brazila)</string>
     <string name="pref_dict_nl" tools:keep="@string/pref_dict_nl">La nederlanda</string>
     <string name="pref_dict_ca" tools:keep="@string/pref_dict_ca">La kataluna</string>
     <string name="pref_resetScores_summary">Plej bonaj poentaroj registriĝas por ĉiu kombinaĵo de la ĉi-supraj agordoj. Tuŝetu por nuligi ĉiujn poentarojn.</string>
@@ -148,4 +148,21 @@
     <string name="game_mode">Ludreĝimo</string>
     <string name="multiplayer">Pluraj ludantoj</string>
     <string name="multiplayer__start_game">Ekludi</string>
+    <plurals name="num_available_words_in_game__tap_to_refresh">
+        <item quantity="one">%1$d vorto (frapetu por reŝargi)</item>
+        <item quantity="other">%1$d vortoj (frapetu por reŝargi)</item>
+    </plurals>
+    <string name="dialog_refresh_content">Por certigi, ke vi ludos la saman tabulon kiel viaj kontraŭuloj, nepre resendu ajnajn invitojn post reŝargo.</string>
+    <string name="dialog_refresh_title">Reŝargi tabulon</string>
+    <string name="dialog_refresh_confirmation_message">Tabulo reŝargiĝis</string>
+    <string name="dialog_refresh_button">Reŝargi</string>
+    <string name="invalid_multiplayer_link">Ricevis malĝustan ligon por reĝimo de pluraj ludantoj; tial, ne eblas aliĝi al ludo. Certigu, ke vi ĉiuj uzas la plej novan version de Lexica.</string>
+    <plurals name="num_available_words_in_game">
+        <item quantity="one">%1$d vorto</item>
+        <item quantity="other">%1$d vortoj</item>
+    </plurals>
+    <string name="pref_dict_pt_BR_description" tools:keep="@string/pref_dict_br_BR_description">Inkluzivas diakritajn signojn: çáéíóúâêôãõà kaj literojn: kwy</string>
+    <string name="pref_dict_pt_BR" tools:keep="@string/pref_dict_pt_BR">La portugala (brazila) (etendita)</string>
+    <string name="dialog_end_game_confirm_message">Ĉu vi certe volas fini ĉi tiun ludon\?</string>
+    <string name="dialog_end_game_confirm_title">Fini ludon</string>
 </resources>

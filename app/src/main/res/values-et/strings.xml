@@ -57,7 +57,7 @@
     <string name="pref_dict_uk">ukraina</string>
     <string name="pref_dict_en_GB">inglise (UK)</string>
     <string name="pref_dict_ru">vene</string>
-    <string name="pref_dict_pt_BR">portugali (Brasilia)</string>
+    <string name="pref_dict_pt_BR_no_diacritics">portugali (Brasilia)</string>
     <string name="pref_dict_pl">poola</string>
     <string name="pref_dict_nl">hollandi</string>
     <string name="pref_dict_ja">jaapani</string>
@@ -148,4 +148,21 @@
 \nSa saad meie tegevusele kaasa aidata ning toetada uusi arendusi kas <a href="https://liberapay.com/Lexica">Liberapay</a> või <a href="https://github.com/sponsors/pserwylo">GitHub Sponsors\'i</a> vahendusel.</string>
     <string name="whats_new_support">Toeta Lexicat</string>
     <string name="whats_new_multiplayer">Mitmikmäng!</string>
+    <plurals name="num_available_words_in_game">
+        <item quantity="one">%1$d sõna</item>
+        <item quantity="other">%1$d sõna</item>
+    </plurals>
+    <plurals name="num_available_words_in_game__tap_to_refresh">
+        <item quantity="one">%1$d sõna (värskendamiseks klõpsi)</item>
+        <item quantity="other">%1$d sõna (värskendamiseks klõpsi)</item>
+    </plurals>
+    <string name="invalid_multiplayer_link">Sain vigase mitmikmängu kutse ega saa mänguga liituda. Palun kontrolli, kas mõlemal mängijal on kasutusel viimane Lexica versioon.</string>
+    <string name="dialog_refresh_confirmation_message">Mänguväli on loodud uuesti</string>
+    <string name="dialog_refresh_button">Värskenda</string>
+    <string name="dialog_refresh_content">Peale mänguvälja uuesti laadimist saada vastasmängijale uuesti mängukutse.</string>
+    <string name="dialog_refresh_title">Värskenda mänguvälja</string>
+    <string name="pref_dict_pt_BR_description" tools:keep="@string/pref_dict_br_BR_description">Sealhulgas täpitähed: çáéíóúâêôãõà ja tähed: kwy</string>
+    <string name="pref_dict_pt_BR" tools:keep="@string/pref_dict_pt_BR">portugali (Brasiilia) (laiendatud)</string>
+    <string name="dialog_end_game_confirm_message">Kas sa oled sa kindel, et soovid selle mängu lõpetada\?</string>
+    <string name="dialog_end_game_confirm_title">Lõpeta mäng</string>
 </resources>

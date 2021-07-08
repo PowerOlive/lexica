@@ -67,7 +67,7 @@
     <string name="pref_dict_uk">Ukrainisch</string>
     <string name="pref_definitionProvider_dictionaryProvider_online">Online</string>
     <string name="pref_dict_pl">Polnisch</string>
-    <string name="pref_dict_pt_BR">Portugiesisch (Brasilien)</string>
+    <string name="pref_dict_pt_BR_no_diacritics">Portugiesisch (Brasilien)</string>
     <string name="theme_dark">Dunkel</string>
     <string name="theme_light">Hell</string>
     <string name="pref_theme_dialog">Thema auswählen</string>
@@ -126,7 +126,7 @@
     <string name="pref_dict_fr_FR_no_diacritics" tools:keep="@string/pref_dict_fr_FR_no_diacritics">Französisch</string>
     <string name="pref_dict_fr_FR_description" tools:keep="@string/pref_dict_fr_FR_description">Enthält die diakritischen Zeichen: àâçéèêëîïôöûü</string>
     <string name="pref_dict_de_DE_description" tools:keep="@string/pref_dict_de_DE_description">Enthält die diakritischen Zeichen: äöü</string>
-    <string name="pref_dict_de_DE_no_diacritics" tools:keep="@string/pref_dict_de_DE_no_diacritics">Allemand</string>
+    <string name="pref_dict_de_DE_no_diacritics" tools:keep="@string/pref_dict_de_DE_no_diacritics">Deutsch</string>
     <string name="new_game_mode">Neuer Spielmodus</string>
     <string name="game_mode">Spielmodus</string>
     <string name="multiplayer">Mehrspieler</string>
@@ -148,4 +148,21 @@
 \n
 \nWie immer sind Rückmeldung und Kommentare willkommen, um diese Funktion zu verbessern. Obwohl dies nicht als Echtzeit-/Netzwerk-Mehrspieler-Funktion gedacht ist, hoffen wir, dass es Ihnen gefällt.</string>
     <string name="whats_new_multiplayer">Mehrspieler!</string>
+    <plurals name="num_available_words_in_game">
+        <item quantity="one">%1$d Wort</item>
+        <item quantity="other">%1$d Wörter</item>
+    </plurals>
+    <plurals name="num_available_words_in_game__tap_to_refresh">
+        <item quantity="one">%1$d Wort (zum Aktualisieren antippen)</item>
+        <item quantity="other">%1$d Wörter (zum Aktualisieren antippen)</item>
+    </plurals>
+    <string name="invalid_multiplayer_link">Falscher Mehrspielerlink erhalten; du kannst dem Spiel nicht beitreten. Stelle sicher, dass ihr beide die neueste Version von Lexica verwendet.</string>
+    <string name="dialog_refresh_confirmation_message">Spielfeld aktualisiert</string>
+    <string name="dialog_refresh_button">Aktualisieren</string>
+    <string name="dialog_refresh_content">Um sicherzustellen, dass du auf dasselbem Spielfed wie deine Gegner spielst, stelle sicher, dass du alle Einladungen nach dem Aktualisieren erneut sendest.</string>
+    <string name="dialog_refresh_title">Spielfeld aktualisieren</string>
+    <string name="pref_dict_pt_BR_description" tools:keep="@string/pref_dict_br_BR_description">Enthält diakritische Zeichen: çáéíóúâêôãõà und Buchstaben: kwy</string>
+    <string name="pref_dict_pt_BR" tools:keep="@string/pref_dict_pt_BR">Portugiesisch (Brasilien) (erweitert)</string>
+    <string name="dialog_end_game_confirm_message">Sind Sie sicher, dass Sie dieses Spiel beenden wollen\?</string>
+    <string name="dialog_end_game_confirm_title">Spiel beenden</string>
 </resources>

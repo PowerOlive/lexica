@@ -125,7 +125,7 @@
     <string name="tile_count">Кількість слів</string>
     <string name="pref_hintMode_summary">Показує кількість слів, у яких можна застосувати кожну букву</string>
     <string name="pref_hintMode">Режим підказки</string>
-    <string name="pref_dict_pt_BR" tools:keep="@string/pref_dict_pt_BR">Португальська (Бразилія)</string>
+    <string name="pref_dict_pt_BR_no_diacritics" tools:keep="@string/pref_dict_pt_BR">Португальська (Бразилія)</string>
     <string name="pref_dict_pl" tools:keep="@string/pref_dict_pl">Польська</string>
     <string name="pref_dict_ru_extended_description" tools:keep="@string/pref_dict_ru_extended_description">Включає граматичні відмінки та скорочення</string>
     <string name="pref_dict_ru_extended" tools:keep="@string/pref_dict_ru_extended">Російська (розширена)</string>
@@ -154,4 +154,25 @@
 \n
 \nЯк завжди, відгуки вітаються про те, як цю функцію можна вдосконалити. Хоча це й не функція багатокористувацької гри в реальному часі/мережі, ми сподіваємося, вам сподобається.</string>
     <string name="whats_new_multiplayer">Багатокористувацька гра!</string>
+    <plurals name="num_available_words_in_game">
+        <item quantity="one">%1$d слово</item>
+        <item quantity="few">%1$d слова</item>
+        <item quantity="many">%1$d слів</item>
+        <item quantity="other">%1$d слів</item>
+    </plurals>
+    <plurals name="num_available_words_in_game__tap_to_refresh">
+        <item quantity="one">%1$d слово (торкніться, щоб оновити)</item>
+        <item quantity="few">%1$d слова (торкніться, щоб оновити)</item>
+        <item quantity="many">%1$d слів (торкніться, щоб оновити)</item>
+        <item quantity="other">%1$d слів (торкніться, щоб оновити)</item>
+    </plurals>
+    <string name="invalid_multiplayer_link">Отримано неправильне багатокористувацьке посилання, не вдалося приєднатися до гри. Переконайтесь, що ви обоє користуєтеся найновішою версією Lexica.</string>
+    <string name="dialog_refresh_confirmation_message">Дошку оновлено</string>
+    <string name="dialog_refresh_button">Оновити</string>
+    <string name="dialog_refresh_content">Щоб грати на тій же дошці, що і ваші супротивники, не забудьте повторно надіслати будь-які запрошення після оновлення.</string>
+    <string name="dialog_refresh_title">Оновити дошку</string>
+    <string name="pref_dict_pt_BR_description" tools:keep="@string/pref_dict_br_BR_description">Включає букви з діакритичними знаками: çáéíóúâêôãõà і букви: kwy</string>
+    <string name="pref_dict_pt_BR" tools:keep="@string/pref_dict_pt_BR">Португальська (Бразилія) (розширена)</string>
+    <string name="dialog_end_game_confirm_message">Ви впевнені, що хочете завершити цю гру\?</string>
+    <string name="dialog_end_game_confirm_title">Завершити гру</string>
 </resources>
